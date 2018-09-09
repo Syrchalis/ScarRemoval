@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationSequence">
+    <success>Always</success>
+	  <operations>
+		<li Class="PatchOperationTest">
+		  <xpath>/Defs/RecipeDef[@ParentName = "SurgeryOld"]</xpath>
+		</li>	
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[@ParentName = "SurgeryOld"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/ResearchProjectDef[defName = "RegenerativeMedicine"]</xpath>
+		</li>
+	  </operations>
+	</Operation>
+
+</Patch>
