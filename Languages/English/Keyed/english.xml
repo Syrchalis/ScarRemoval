@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <SyrScarRemovalHeal>Heal</SyrScarRemovalHeal>
+  <SyrScarRemovalSuccessfullyHealed>{0} has successfully removed {1}'s {2} ({3}).</SyrScarRemovalSuccessfullyHealed>
+
+</LanguageData>

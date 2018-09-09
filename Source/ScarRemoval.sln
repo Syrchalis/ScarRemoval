@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScarRemoval", "ScarRemoval\ScarRemoval.csproj", "{06E8DA4E-3CAA-4C30-BBA0-5DBD1DD83B4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E8DA4E-3CAA-4C30-BBA0-5DBD1DD83B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E8DA4E-3CAA-4C30-BBA0-5DBD1DD83B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E8DA4E-3CAA-4C30-BBA0-5DBD1DD83B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E8DA4E-3CAA-4C30-BBA0-5DBD1DD83B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B06C83A-2CDD-4132-99B1-357AEA8F622D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>[SYR] Scar Removal</name>
+    <author>Syrchalis</author>
+    <targetVersion>0.19.2009</targetVersion>
+	<url>https://ludeon.com/forums/index.php?topic=43449</url>
+    <description>Allows removing of scars for glitterworld medicine. Frailty, dementia and Alzheimer's can also be removed for increasing amounts of glitterworld medicine. Brain injuries require any artifact to fix, alongside a glitterworld medicine.</description>
+</ModMetaData>
