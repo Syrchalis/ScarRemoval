@@ -46,9 +46,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DefOf.cs" />
     <Compile Include="Recipe_ScarRemoval.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recipe_ScarRemovalBrain.cs" />
+    <Compile Include="ScarRemoval.cs" />
+    <Compile Include="ScarRemovalSettings.cs" />
+    <Compile Include="ScarRemoval_Constructor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

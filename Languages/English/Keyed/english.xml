@@ -3,5 +3,8 @@
 
   <SyrScarRemovalHeal>Heal</SyrScarRemovalHeal>
   <SyrScarRemovalSuccessfullyHealed>{0} has successfully removed {1}'s {2} ({3}).</SyrScarRemovalSuccessfullyHealed>
+  <ScarRemovalSettings>Scar Removal Settings</ScarRemovalSettings>
+  <ScarRemovalSettingsHardMode>Enable hard mode</ScarRemovalSettingsHardMode>
+  <ScarRemovalSettingsHardModeTooltip>If enabled recipes will be more expensive.</ScarRemovalSettingsHardModeTooltip>
 
 </LanguageData>
