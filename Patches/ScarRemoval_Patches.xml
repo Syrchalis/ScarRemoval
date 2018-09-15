@@ -1,19 +1,61 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	
+	<!--same shit 12x because Rimworld is too dumb to remove it otherwise-->
 	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	  <operations>
+	  	<li Class="PatchOperationRemove">
+		  <xpath>/Defs/ResearchProjectDef[defName = "RegenerativeMedicine"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+		  <xpath>/Defs/RecipeDef[defName = "CureInjuryBurn" or defName = "CureInjuryCrush" or defName = "CureInjuryCrack" or defName = "CureInjuryCut" or defName = "CureInjurySurgicalCut" or defName = "CureInjuryScratch" or defName = "CureInjuryBite" or defName = "CureInjuryStab" or defName = "CureInjuryGunshot" or defName = "CureInjuryShredded" or defName = "CureInjuryBruise" or defName = "CureInjuryFrostbite"]</xpath>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<!--<Operation Class="PatchOperationSequence">
     <success>Always</success>
 	  <operations>
 		<li Class="PatchOperationTest">
-		  <xpath>/Defs/RecipeDef[@ParentName = "SurgeryOld"]</xpath>
-		</li>	
-		<li Class="PatchOperationRemove">
-		  <xpath>/Defs/RecipeDef[@ParentName = "SurgeryOld"]</xpath>
+		  <xpath>/Defs/ResearchProjectDef[defName = "RegenerativeMedicine"]</xpath>
 		</li>
 		<li Class="PatchOperationRemove">
 		  <xpath>/Defs/ResearchProjectDef[defName = "RegenerativeMedicine"]</xpath>
 		</li>
 	  </operations>
-	</Operation>
+	</Operation>-->
 
 </Patch>
