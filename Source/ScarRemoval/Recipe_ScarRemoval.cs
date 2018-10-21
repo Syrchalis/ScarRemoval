@@ -39,23 +39,21 @@ namespace SyrScarRemoval
                     string text;
                     if (part.def.delicate)
                     {
-                        text = "SyrScarRemovalSuccessfullyHealed".Translate(new object[]
-                        {
+                        text = "SyrScarRemovalSuccessfullyHealed".Translate(
                         billDoer.LabelShort,
                         pawn.LabelShort,
                         hediff.TryGetComp<HediffComp_GetsPermanent>().Props.instantlyPermanentLabel,
                         part.Label
-                        });
+                        );
                     }
                     else
                     {
-                        text = "SyrScarRemovalSuccessfullyHealed".Translate(new object[]
-                        {
+                        text = "SyrScarRemovalSuccessfullyHealed".Translate(
                         billDoer.LabelShort,
                         pawn.LabelShort,
                         hediff.TryGetComp<HediffComp_GetsPermanent>().Props.permanentLabel,
                         part.Label
-                        });
+                        );
                     }
                     Messages.Message(text, pawn, MessageTypeDefOf.PositiveEvent, true);
                 }
