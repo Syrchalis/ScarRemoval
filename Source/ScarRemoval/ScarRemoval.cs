@@ -26,7 +26,9 @@ namespace SyrScarRemoval
             {
                 Listing_Standard listing_Standard = new Listing_Standard();
                 listing_Standard.Begin(inRect);
-                listing_Standard.CheckboxLabeled("ScarRemovalSettingsHardMode".Translate(), ref ScarRemovalSettings.hardMode, ("ScarRemovalSettingsHardModeTooltip".Translate()));
+                listing_Standard.CheckboxLabeled("ScarRemovalSettingsHardMode".Translate(), ref ScarRemovalSettings.hardMode, "ScarRemovalSettingsHardModeTooltip".Translate());
+                listing_Standard.Gap(12f);
+                listing_Standard.CheckboxLabeled("ScarRemovalSettingsapplyToAnimals".Translate(), ref ScarRemovalSettings.applyToAnimals, "ScarRemovalSettingsapplyToAnimalsTooltip".Translate());
                 listing_Standard.End();
                 settings.Write();
             }

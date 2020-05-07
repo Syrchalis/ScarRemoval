@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+	<defName>RemoveScar</defName>
+	<label>remove scar</label>
+	<description>Removes scar.</description>
+	<workerClass>SyrScarRemoval.Recipe_ScarRemoval</workerClass>
+	<jobString>Removing scar.</jobString>
+	<workAmount>1800</workAmount>
+	<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+	<surgerySuccessChanceFactor>2.0</surgerySuccessChanceFactor>
+	<ingredients>
+		<li>
+		  <filter>
+			<thingDefs>
+			  <li>MedicineUltratech</li>
+			</thingDefs>
+		  </filter>
+		  <count>3</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>MedicineUltratech</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<skillRequirements>
+		<Medicine>8</Medicine>
+	</skillRequirements>
+	<recipeUsers>
+		<li>Human</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryFlesh">
+	<defName>RemoveScarBrain</defName>
+	<label>fix brain damage</label>
+	<description>Fixes brain damage.</description>
+	<workerClass>SyrScarRemoval.Recipe_ScarRemovalBrain</workerClass>
+	<jobString>Fixing brain damage.</jobString>
+	<workAmount>1800</workAmount>
+	<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+	<surgerySuccessChanceFactor>2.0</surgerySuccessChanceFactor>
+	<ingredients>
+		<li>
+		  <filter>
+			<thingDefs>
+			  <li>MedicineUltratech</li>
+			</thingDefs>
+		  </filter>
+		  <count>3</count>
+		</li>
+		<li>
+		  <filter>
+			<categories>
+			  <li>Artifacts</li>
+			</categories>
+		  </filter>
+		  <count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>MedicineUltratech</li>
+	  </thingDefs>
+	  <categories>
+		<li>Artifacts</li>
+	  </categories>
+	</fixedIngredientFilter>
+	<skillRequirements>
+		<Medicine>10</Medicine>
+	</skillRequirements>
+	<recipeUsers>
+		<li>Human</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>HealDementia</defName>
+    <label>heal dementia</label>
+    <description>Heal dementia.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Healing dementia.</jobString>
+    <workAmount>3000</workAmount>
+	<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+	<surgerySuccessChanceFactor>2.0</surgerySuccessChanceFactor>
+    <removesHediff>Dementia</removesHediff>
+    <successfullyRemovedHediffMessage>{0} has successfully healed {1}'s dementia.</successfullyRemovedHediffMessage>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+		<li>
+		  <filter>
+			<thingDefs>
+			  <li>MedicineUltratech</li>
+			</thingDefs>
+		  </filter>
+		  <count>8</count>
+		</li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <thingDefs>
+		<li>MedicineUltratech</li>
+	  </thingDefs>
+    </fixedIngredientFilter>
+	<recipeUsers>
+		<li>Human</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>HealAlzheimers</defName>
+    <label>heal Alzheimer's</label>
+    <description>Heal Alzheimer's.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Healing Alzheimer's.</jobString>
+    <workAmount>3000</workAmount>
+	<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+	<surgerySuccessChanceFactor>2.0</surgerySuccessChanceFactor>
+    <removesHediff>Alzheimers</removesHediff>
+    <successfullyRemovedHediffMessage>{0} has successfully healed {1}'s Alzheimer's.</successfullyRemovedHediffMessage>
+    <skillRequirements>
+      <Medicine>8</Medicine>
+    </skillRequirements>
+    <ingredients>
+		<li>
+		  <filter>
+			<thingDefs>
+			  <li>MedicineUltratech</li>
+			</thingDefs>
+		  </filter>
+		  <count>6</count>
+		</li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <thingDefs>
+		<li>MedicineUltratech</li>
+	  </thingDefs>
+    </fixedIngredientFilter>
+	<recipeUsers>
+		<li>Human</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>HealFrailty</defName>
+    <label>heal frailty</label>
+    <description>Heal frailty.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Healing frailty.</jobString>
+    <workAmount>3000</workAmount>
+	<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+	<surgerySuccessChanceFactor>2.0</surgerySuccessChanceFactor>
+    <removesHediff>Frail</removesHediff>
+    <successfullyRemovedHediffMessage>{0} has successfully healed {1}'s frailty.</successfullyRemovedHediffMessage>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+		<li>
+		  <filter>
+			<thingDefs>
+			  <li>MedicineUltratech</li>
+			</thingDefs>
+		  </filter>
+		  <count>10</count>
+		</li>
+    </ingredients>
+    <fixedIngredientFilter>
+	  <thingDefs>
+		<li>MedicineUltratech</li>
+	  </thingDefs>
+    </fixedIngredientFilter>
+	<recipeUsers>
+		<li>Human</li>
+	</recipeUsers>
+  </RecipeDef>
+
+</Defs>

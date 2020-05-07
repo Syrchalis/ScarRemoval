@@ -3,8 +3,12 @@
 
   <SyrScarRemovalHeal>Heal</SyrScarRemovalHeal>
   <SyrScarRemovalSuccessfullyHealed>{0} has successfully removed {1}'s {2} ({3}).</SyrScarRemovalSuccessfullyHealed>
-  <ScarRemovalSettings>Scar Removal Settings</ScarRemovalSettings>
+  <SyrScarRemovalSuccessfullyRegrown>{0} has successfully regrown {1}'s {2}.</SyrScarRemovalSuccessfullyRegrown>
+  <SyrScarRemovalRegrown>Regrow</SyrScarRemovalRegrown>
+  <ScarRemovalSettings>Scar Removal Plus</ScarRemovalSettings>
   <ScarRemovalSettingsHardMode>Enable hard mode</ScarRemovalSettingsHardMode>
   <ScarRemovalSettingsHardModeTooltip>If enabled recipes will be more expensive.</ScarRemovalSettingsHardModeTooltip>
+  <ScarRemovalSettingsapplyToAnimals>Apply to animals</ScarRemovalSettingsapplyToAnimals>
+  <ScarRemovalSettingsapplyToAnimalsTooltip>Allows all surgeries to be done on animals as well - a dedicated mod for animals exists: "A dog said...".</ScarRemovalSettingsapplyToAnimalsTooltip>
 
 </LanguageData>

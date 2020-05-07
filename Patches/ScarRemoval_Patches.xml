@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+	<!-- RBSE Patch -->
 	<!--same shit 12x because Rimworld is too dumb to remove it otherwise-->
 	<Operation Class="PatchOperationSequence">
 	<success>Always</success>

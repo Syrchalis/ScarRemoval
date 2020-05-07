@@ -19,8 +19,14 @@ namespace SyrScarRemoval
         }
         public static RecipeDef RemoveScar;
         public static RecipeDef RemoveScarBrain;
+        public static RecipeDef RegrowSmallBodyPart;
         public static RecipeDef HealDementia;
         public static RecipeDef HealAlzheimers;
         public static RecipeDef HealFrailty;
+        public static BodyPartDef Finger;
+        public static BodyPartDef Toe;
+        public static BodyPartDef Ear;
+        public static BodyPartDef Nose;
+        public static BodyPartDef Tail;
     }
 }
