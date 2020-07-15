@@ -1,6 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Assemblies\SyrScarRemoval.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_ScarRemoval\Source\ScarRemoval\obj\Release\ScarRemoval.csprojAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_ScarRemoval\Source\ScarRemoval\obj\Release\ScarRemoval.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_ScarRemoval\Source\ScarRemoval\obj\Release\SyrScarRemoval.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_ScarRemoval\Assemblies\SyrScarRemoval.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_ScarRemoval\1.1\Assemblies\SyrScarRemoval.dll
